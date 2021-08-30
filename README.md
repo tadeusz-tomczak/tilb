@@ -1,6 +1,6 @@
 # Taichi Lattice Boltmann
 
-Taichi Lattice Boltzmann (tilb) is an implementation of the lattice-Boltzmann method in [Taichi](https://github.com/taichi-dev/taichi). The code is loosely based on [LBM_Taichi](https://github.com/hietwll/LBM_Taichi) project, but with significantly redesigned the code to improve performance and handle a wider set of boundary conditions.
+Taichi Lattice Boltzmann (tilb) is an implementation of the lattice-Boltzmann method in [Taichi](https://github.com/taichi-dev/taichi). The code is loosely based on [LBM_Taichi](https://github.com/hietwll/LBM_Taichi) project but with significantly redesigned code to improve performance and handle a wider set of boundary conditions. For details please see https://arxiv.org/submit/3904726/preview.
 
 ## Usage
 tilb is designed as a main library (``tilb.py`` file) and separate script used for setting and running a simulation. Four example simulation are provided:
