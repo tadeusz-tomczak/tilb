@@ -15,4 +15,4 @@ ti cavity.py
 ```
 launches lid-driven cavity simulation.
 
-Simulations script contain commented sets of different settings, for details please consult the source code (I hope it is self-explaining). Each simulation has the main function ``simulate()``, which builds case and launches computational engine.
+Simulations script contain commented sets of different settings, for details please consult the source code (I hope it is self-explaining). Each simulation has the main function ``simulate()``, which builds case and launches computational engine. At the end of simulation, file ``out.vts`` is generated, which can be further processed with [ParaView](https://www.paraview.org/).
