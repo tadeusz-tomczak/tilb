@@ -1,9 +1,9 @@
 # Taichi Lattice Boltmann
 
-Taichi Lattice Boltzmann (tilb) is an implementation of the lattice-Boltzmann method in [Taichi](https://github.com/taichi-dev/taichi). The code is loosely based on [LBM_Taichi](https://github.com/hietwll/LBM_Taichi) project but with significantly redesigned code to improve performance and handle a wider set of boundary conditions. For details please see https://arxiv.org/3904726.
+Taichi Lattice Boltzmann (tilb) is an implementation of the lattice-Boltzmann method in [Taichi](https://github.com/taichi-dev/taichi). The code is loosely based on [LBM_Taichi](https://github.com/hietwll/LBM_Taichi) project but with significantly redesigned code to improve performance and handle a wider set of boundary conditions. For details, please see https://doi.org/10.3390/app11209495.
 
 ## Usage
-tilb is designed as a main library (``tilb.py`` file) and separate script used for setting and running a simulation. Four example simulation are provided:
+tilb is designed as the main library (``tilb.py`` file) and separate script used for setting and running a simulation. Four example simulation are provided:
 - lid-driven cavity (file ``cavity.py``),
 - channel flow (file ``channel.py``),
 - flow past cylinder (file ``cylinder.py``)
@@ -15,4 +15,4 @@ ti cavity.py
 ```
 launches lid-driven cavity simulation.
 
-Simulations script contain commented sets of different settings, for details please consult the source code (I hope it is self-explaining). Each simulation has the main function ``simulate()``, which builds case and launches computational engine. At the end of simulation, file ``out.vts`` is generated, which can be further processed with [ParaView](https://www.paraview.org/).
+Simulations script contain commented sets of different settings, for details please consult the source code (I hope it is self-explaining). Each simulation has the main function ``simulate()``, which builds the case and launches computational engine. At the end of simulation, file ``out.vts`` is generated, which can be further processed with [ParaView](https://www.paraview.org/).
